@@ -27,6 +27,28 @@
     font-size: 30px;
 }
 
+.imagens{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0px;
+    margin: 8% 0 0 4%;
+}
+
+.imagens img{
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+    border-color:#ffc400;
+    border: 3px solid #ffc400;
+    transition: transform 0.3s ease;
+}
+
+.imagens img:hover{
+    transform: scale(1.2);
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -46,12 +68,13 @@
     color: white;
     font-weight: bold;
     text-decoration: none;
+    padding: 0 15px;
 }
 
 .secao-jogos {
     background-color: #313131;
     color: #f0f0f0;
-    padding: 50px 7%;
+    padding: 50px 7% 0 7%;
     min-height: 100vh;
 }
 
