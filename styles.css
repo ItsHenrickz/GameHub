@@ -7,7 +7,7 @@
 .cabeca{
     
     background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+        linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
         url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFh8_u6_Dellp0MQCI0ixUV1rqf3kdFo7vCUB9kWonb9zp0Qxveo4JFkbo&s=10);
     background-size: cover;
     width: 100%;
