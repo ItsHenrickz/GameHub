@@ -7,8 +7,8 @@
 .cabeca{
     
     background-image: 
-        linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
-        url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFh8_u6_Dellp0MQCI0ixUV1rqf3kdFo7vCUB9kWonb9zp0Qxveo4JFkbo&s=10);
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+        url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7a4f2faf-7d57-48f8-8b4e-ea655774db6b/ddrfu5v-8497eeac-ad03-4abf-957a-63159599231e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi83YTRmMmZhZi03ZDU3LTQ4ZjgtOGI0ZS1lYTY1NTc3NGRiNmIvZGRyZnU1di04NDk3ZWVhYy1hZDAzLTRhYmYtOTU3YS02MzE1OTU5OTIzMWUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KlCYwXtUx3ucHNS_XpyCfhGIIeHkPypPeodXfPZF3fI);
     background-size: cover;
     width: 100%;
     height: 100vh;
