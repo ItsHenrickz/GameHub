@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste de Segurança DAST</title>
+</head>
+<body>
+
+    <h1>Teste de vulnerabilidade XSS</h1>
+
+    <p id="mensagem"></p>
+
+    <script>
+        const parametros = new URLSearchParams(window.location.search);
+        const nome = parametros.get("nome");
+
+        document.getElementById("mensagem").innerHTML = nome;
+    </script>
+
+</body>
+</html>
