@@ -1,0 +1,10 @@
+rules:
+  - id: gamehub-dangerous-eval
+    languages:
+      - javascript
+    severity: ERROR
+    message: "Vulnerabilidade SAST: uso perigoso de eval() com dados não confiáveis."
+    metadata:
+      category: security
+      cwe: "CWE-95"
+    pattern: eval($CODE)
