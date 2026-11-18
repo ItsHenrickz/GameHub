@@ -3,20 +3,10 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Teste de Segurança DAST</title>
+    <title>Teste DAST - GameHub</title>
 </head>
 <body>
-
-    <h1>Teste de vulnerabilidade XSS</h1>
-
-    <p id="mensagem"></p>
-
-    <script>
-        const parametros = new URLSearchParams(window.location.search);
-        const nome = parametros.get("nome");
-
-        document.getElementById("mensagem").innerHTML = nome;
-    </script>
-
+    <h1>Teste de configuração de segurança</h1>
+    <p>Página feita para testar os cabeçalhos HTTP.</p>
 </body>
 </html>

@@ -89,6 +89,6 @@ jobs:
       - name: Executar OWASP ZAP Baseline Scan
         uses: zaproxy/action-baseline@v0.15.0
         with:
-          target: 'https://itshenrickz.github.io/GameHub/'
+          target: 'https://itshenrickz.github.io/GameHub/teste-dast.html'
           fail_action: false
           allow_issue_writing: false
