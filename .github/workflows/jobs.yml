@@ -44,7 +44,7 @@ jobs:
       - name: Executar Semgrep SAST
         uses: semgrep/semgrep-action@v1
         with:
-          config: .semgrep.yml
+          config: auto
 
   # 3. Estágio de Deploy (Publica o site estático no GitHub Pages)
   
