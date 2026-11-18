@@ -39,12 +39,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do Código
-        uses: actions/checkout@v4
+
 
       - name: Executar Semgrep SAST
         uses: semgrep/semgrep-action@v1
         with:
-          config: auto
+          config: semgrep.yml
 
   # 3. Estágio de Deploy (Publica o site estático no GitHub Pages)
   

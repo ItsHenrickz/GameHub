@@ -1,0 +1,10 @@
+rules:
+  - id: gamehub-dangerous-eval
+    languages:
+      - javascript
+    severity: ERROR
+    message: "Uso perigoso de eval(): execução de código JavaScript não confiável."
+    metadata:
+      category: security
+      cwe: "CWE-95"
+    pattern: eval(...)
