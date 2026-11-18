@@ -83,3 +83,4 @@ jobs:
         with:
           target: 'https://itshenrickz.github.io/GameHub/'
           fail_action: false
+          respect_site_map: true
