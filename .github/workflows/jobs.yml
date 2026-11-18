@@ -32,6 +32,7 @@ jobs:
           ls -lh index.html styles.css
 
   # 2. Estágio de SAST (Análise Estática de Segurança com Semgrep)
+  
   sast:
     name: Análise SAST (Semgrep)
     needs: verificar-site
@@ -47,7 +48,6 @@ jobs:
 
   # 3. Estágio de Deploy (Publica o site estático no GitHub Pages)
   
-  # 3. Estágio de Deploy (GitHub Pages)
   deploy:
     name: Deploy para Produção
     runs-on: ubuntu-latest
